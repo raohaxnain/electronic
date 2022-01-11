@@ -1,0 +1,172 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.bg-img {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100% !important;
+}
+
+.nav-link {
+    color: #223287 !important;
+}
+
+.nav-link:hover {
+    color: #223287 !important;
+    border-bottom: 2px solid #223287;
+}
+
+.btn-talk {
+    background-color: transparent;
+    border: 2px solid #223287;
+    color: #223287;
+    border-radius: 0px;
+    padding: 6px 35px;
+    font-weight: 600;
+}
+
+.active-nav {
+    color: #223287 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #223287;
+}
+
+.color-blue {
+    color: #223287;
+}
+
+.color-1 {
+    color: #5E5E5E;
+}
+
+/*====================================================== SLIDER =============================================== */
+.slider {
+    width: 100%;
+    margin: 40px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #7D1B7E;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 02;
+}
+
+.font {
+    font-weight: 700;
+}
+
+.bdr {
+    border-bottom: 3px solid #223287;
+    width: 6%;
+}
+
+.seheme-card {
+    border: 1px solid #A0A0A0;
+    border-radius: 0px;
+    height: 100%;
+}
+
+.seheme-card:hover {
+    border-bottom: 5px solid #223287;
+}
+
+.why-card {
+    border: 1px solid #A0A0A0;
+    cursor: pointer;
+}
+
+.why-card:hover {
+    background-color: #223287;
+    color: white;
+}
+
+.why-card #a {
+    display: inline;
+}
+
+.why-card #b {
+    display: none;
+}
+
+.why-card:hover #a {
+    display: none;
+}
+
+.why-card:hover #b {
+    display: inline;
+}
+
+.buy-btn {
+    background-color: #223287;
+    padding: 6px 40px;
+    border-radius: 0px;
+    box-shadow: 0px 21px 26px rgba(34, 50, 135, 0.1);
+}
+
+.imag {
+    width: 31%;
+}
+
+#contact .form-control {
+    background-color: #E6E6E6;
+    border: 0;
+}
+
+.slider-card {
+    background-color: #223287;
+    color: white;
+}
+
+.carousel-indicators li {
+    background-color: #223287;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.btn-talk1 {
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 6px 31px;
+    font-weight: 600;
+}
+
+.carousel-control-prev-icon {
+    background-color: transparent;
+}
+
+#link a #b {
+    display: none;
+}
+
+#link a:hover #b {
+    display: inline;
+}
+
+#link a:hover #a {
+    display: none;
+}
